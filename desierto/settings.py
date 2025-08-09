@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-hs47=*a31cc$5!11!&w)wddyfr7gw(xem)oy_ufk6)n(6i!)++
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 load_dotenv()
 # Application definition
