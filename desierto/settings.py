@@ -81,10 +81,11 @@ REST_FRAMEWORK = {
         'django_filters.rest_framework.DjangoFilterBackend'
     ]
 }
-if PRODUCTION == False:
-    CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+
+CORS_ALLOWED_ORIGINS = [
+    os.getenv('CORS_ALLOWED_ORIGINS'),
 ]
+
     
 if PRODUCTION == True:
     STATIC_URL = '/static/'
