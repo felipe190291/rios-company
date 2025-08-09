@@ -8,3 +8,4 @@ dj-database-url
 django-seed
 django-cors-headers
 whitenoise
+pandas
