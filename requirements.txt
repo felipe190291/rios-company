@@ -9,3 +9,4 @@ django-seed
 django-cors-headers
 whitenoise
 pandas
+openpyxl
